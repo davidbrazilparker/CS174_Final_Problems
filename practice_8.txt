@@ -1,0 +1,8 @@
+SQL injection - fill out form variables to break the PHP script behind the forms variables
+
+Can prevent this by use mysqli_escape_string() around the posted variable
+
+
+target blank attack - when a blank tab is opened by clicking on a malicious link, the attack will load the previous page to look like the login page of a site like facebook to make you look like you need to log back in. 
+
+Can prevent this by using setting rel="noopener noreferrer"

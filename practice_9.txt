@@ -1,0 +1,5 @@
+internationalization - adding to an application the ability to input, process, and output international text
+
+code point - any of the numerical values that make up the code space
+
+grapheme - the composed form that makes up unicode characters
