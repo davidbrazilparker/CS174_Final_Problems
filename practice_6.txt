@@ -1,0 +1,10 @@
+Write a simple DTD that has as its main element the tag BusinessCard, and which has as subelements FullName, Position, Business, and Address. Your language should support a BusinessCard having a VIP attribute which can only have for its value VIP.
+
+<!DOCTYPE BusinessCard [
+<!ELEMENT BusinessCard (FullName, Position, Business, Address)>
+<!ATTLIST BusinessCard VIP CDATA #FIXED "VIP">
+<!ELEMENT FullName (#PCDATA)>
+<!ELEMENT Position (#PCDATA)>
+<!ELEMENT Business (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+]>
