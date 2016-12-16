@@ -1,0 +1,21 @@
+Explain with git commands how to do the follow: (a) create a new repository, (b)make a branch, (c)create a patch.
+
+a) 
+
+git init name_of_git_repo
+git add *
+git commit -m "Initial commit"
+*Extra step for remote repo*
+git remote add origin insert_url_here
+
+b)
+
+git branch my_new_branch_name
+
+c) 
+
+git format-patch rev1 rev2
+
+*****EXTRA*****
+git apply --check my.patch
+git am --signoff < my.patch
